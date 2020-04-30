@@ -10,8 +10,8 @@
 		
 		$txt=$_POST['message'];
 		
-		$headers="From:".{$email}."\r\n."
-			"CC:somebodyelse@example.com";
+		$headers="From:".{$email}."\r\n".
+			"CC: 18bei032@ietdavv.edu.in";
 		
 		mail($to, $subject, $message, $headers);
 		
