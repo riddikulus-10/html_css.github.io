@@ -1,0 +1,197 @@
+body{
+    background:#F4F4F4;
+    margin:0;
+    width: auto;
+}
+
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    width:780px;
+    margin:0 auto;
+    background: #fe3740f0;
+    box-shadow: 0px 10px 8px 8px;
+}
+
+.header{
+    padding: 20px 0 15px 20px;
+/*    border: 2px solid black;*/ 
+    text-align: left;
+}
+
+.link_title{
+    text-decoration: none;
+    font-size: 24px;
+    color:#444444;
+}
+
+.menu{
+    color:dimgray;
+    padding: 2px 2px 4px 35px;
+    background-color:royalblue;
+}
+
+.menu a{
+    color:darkgray;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    opacity:1;
+}
+
+.menu a:hover{
+    color: aqua;
+    opacity: .8;
+}
+
+aside{
+    float: left;
+    text-align:top;
+    padding: 30px 0 0 40px;
+    width:120px;
+/*    background-color: floralwhite;*/
+    
+}
+
+h1{
+    margin:0px;
+    color:#1f04fd;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+h2{
+    color:#0a06ec;
+    font-size: 20px;
+    font-family: inherit;
+    margin: 20px 0 5px 0;
+}
+
+.main{
+    margin:0 0 0 180px;
+    padding:30px 30px 30px 30px;
+    color:#444444;
+    font-family: "Cursive","Georgia";
+    font-size: 15px;
+    line-height: 18px;
+    text-justify: none;
+    
+    
+}
+
+.main a{
+    color:#444444;
+}
+
+footer{
+    padding:6px 40px 6px 40px;
+    background-color: royalblue;
+    font-family: "Lucida Sans Unicode";
+    color:floralwhite;
+    font-size: 14px;
+/*    text-align: center;*/
+    text-decoration:right;
+}
+
+footer a{
+    text-decoration:none;
+    color:red;
+    opacity:1;
+}
+
+footer a:hover{
+    color:aqua;
+    opacity:0.5;
+}
+
+.separator{
+    color:whitesmoke;
+    font-size: 15px;
+}
+
+#home-image img{
+    width: 100%;
+}
+
+
+
+/***************About Us Style***************/
+
+#about-page #home-image img{
+    width: 68%;
+    float: left;
+/*    margin-top: 10px;*/
+    margin-bottom: 20px;
+    
+    }
+
+#about-page #profile-info{
+    float: right;
+    width:20%;
+    border: 1px dotted black;
+    
+/*
+    padding-bottom: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2px; */
+}
+
+
+.description{
+    clear: both;
+    
+}
+
+#about-page #profile-info h2{
+         font-size:14px;
+}
+
+/**************Contact Page**************/
+
+#contact-page #form{
+/*    border: 2px solid black;*/
+    width: 370px;
+    padding: 30px 30px 30px 30px;
+    margin: 0 auto;
+/*    text-align: center;*/
+    box-shadow: 0px 10px 10px 10px grey;
+    border-radius: 5px;
+}
+
+#contact-page .page-heading{
+    text-align: center;
+}
+
+#contact-page label{
+    font-weight: bold;
+}
+
+#contact-page input{
+    width: 90%;
+    border-radius: 8px;
+    background-color: #e6e6e6;
+    text-decoration-color: white;
+    height: 20px;
+
+}
+
+#contact-page textarea{
+    background-color: #e6e6e6;
+    border-radius: 8px;
+    width: 90%;
+}
+
+#contact-page #form #submit{
+    width: 90%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: black;
+    text-align: center;
+    margin: 0 auto;
+    
+}
